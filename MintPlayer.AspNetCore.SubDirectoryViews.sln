@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintPlayer.AspNetCore.SubDirectoryViews", "MintPlayer.AspNetCore.SubDirectoryViews\MintPlayer.AspNetCore.SubDirectoryViews.csproj", "{6A11BB46-AD14-4372-B3E7-E2F73007DB43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A11BB46-AD14-4372-B3E7-E2F73007DB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A11BB46-AD14-4372-B3E7-E2F73007DB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A11BB46-AD14-4372-B3E7-E2F73007DB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A11BB46-AD14-4372-B3E7-E2F73007DB43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4C16D90-CC6B-426C-B41A-A591C554A1BB}
+	EndGlobalSection
+EndGlobal
