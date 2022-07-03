@@ -11,7 +11,7 @@ public static class ServiceCollectionExtensions
         return services
             .Configure<RazorViewEngineOptions>(options =>
             {
-                var new_locations = options.ViewLocationFormats.Select(vlf => $"/{folder.Trim('/')}{vlf}");
+                var new_locations = options.ViewLocationFormats.Select(vlf => $"/{folder.Trim('/')}{vlf}").ToList();
                 options.ViewLocationFormats.Clear();
                 foreach (var format in new_locations)
                 {
